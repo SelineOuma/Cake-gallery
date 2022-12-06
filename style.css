@@ -1,0 +1,80 @@
+
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+button{
+    display: flex;
+    left: 1rem;
+    top: 1rem;
+    color: blue;
+    position: absolute;
+    border-radius: 20px;
+    
+}
+h1{
+    top: 3rem;
+    font-style: italic;
+    align-items: center;
+}
+
+button:hover{
+    color: red;
+}
+
+.container{
+    display:flex;
+    height: 95vh;
+}
+.taste{
+    
+    height: 85vh;
+    margin: 10px;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 0.5;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+    transition: all 1000ms ease-in;
+}
+.taste.active{
+    height: 85vh;
+}
+.taste.active{
+    opacity: 1;
+    transition: opacity 1s ease-in 1.2s;
+    
+}
+.taste h3{
+    position: absolute;
+    top: 2rem ;
+    left: 1rem;
+}
+.taste p{
+    position:absolute;
+    bottom: 2rem;
+    left: 1rem;
+    font-style: oblique;
+}
+
+#cake{
+    background-image: url(./Red-Velvet-Cake.jpg);
+}
+
+#cake-1{
+    background-image: url(./Chocolate-Layer-Cake.jpg);
+}
+#cake-2{
+    background-image: url(./butter-cake.jpg);
+}
+#cake-4{
+    background-image: url(./chiffon-cake.jpg);
+}
+#cake-5{
+    background-image: url(./AngelFoodCake.jpg);
+}
